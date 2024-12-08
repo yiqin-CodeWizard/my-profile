@@ -1,0 +1,125 @@
+h1{
+	color: green;
+	font-family: Helvetica;
+}
+
+h1, h2, h3 {
+  	font-family: "Roboto", sans-serif;
+  	font-weight: 700;
+  	font-style: normal;
+	background-color: #FFFFFF;
+	color: #5F5E6B;
+}
+
+a{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	text-decoration: none;
+	font-weight: bolder;
+	transition: color 0.3s ease;
+}
+a:hover{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #683DF2;
+}
+
+p{
+	font-family: "PT Serif", serif;
+ 	font-weight: 400;
+  	font-style: normal;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+/* Condition Grammar: If the page width is below 500px, apply the following style */
+/* This is called Responsive design */
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+/* Condition Grammar: If the page width is below 500px, apply the following style */
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+
+.card-white {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    background: white;
+    /* border: 2px solid black; */
+    margin: 50px;
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+	width: 200px;
+	/* border-radius: 50%;*/
+	border-radius: 50%;
+}
+
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+/* Color design for css file:
+	Tool 1: Color Hunt
+	Tool 2: Coolors.co
+	Tool 3: Color Zilla Google extension to mimic the style of another website
+ /
+
+ /* Font design:
+ 	Tool 1: Google fonts
+ 	Tool 2: fontface ninjia
+ /
+
+ /*
+ Here are some cool resources for colors and fonts:
+
+Color Hunt: find nice color schemes.
+Coolors: create your own color schemes.
+Colorzilla Chrome extension: a free color picker on Chrome.
+Sip for Mac: a Mac color picker.
+Google Fonts: THE classic service to embed nice fonts.
+Mozilla CSS documentation: dictionary of all CSS properties.
+ /
