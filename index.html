@@ -14,6 +14,14 @@
 		<link rel="stylesheet" href="style.css">
 		<!-- Add the Font Awesome Library in the head so that later in the body, can directly use it -->
 		<script src="https://kit.fontawesome.com/21a8157d1e.js" crossorigin="anonymous"></script>
+		<script>
+      function toggleSidebar() {
+          const sidebar = document.querySelector('.sidebar');
+          const content = document.querySelector('.content');
+          sidebar.classList.toggle('folded');
+          content.classList.toggle('folded');
+      }
+    </script>
 	</head>
 
 	<body>
@@ -30,25 +38,25 @@
 			</div>
 		
 
-			<div class='card-white'>
+			<div class='card-white' id='PhysicalWin'>
 				<h2>Physical Win: Body</h2>
 				<p>I am aware of the importance of having a healthy and strong body with the help of workout and proper food.</p>
 			</div>
 		
 
-			<div class='card-white'>
+			<div class='card-white' id='AdventureProject'>
 				<h2>Adventure Project: Dubai Business Associate</h2>
 				<p>I would like to join the Dubai Business Associate Program next year to explore the new aspects of the world.</p>		
 			</div>
 
 
-			<div class='card-white'>
+			<div class='card-white' id='FuturePath'>
 				<h2>Future Path: MIT MFin/MBAn</h2>
 				<p>I am considering pursuing my further study in US with a Double Degree program with MIT Master in Finance or Master in Business Analysis to explore the entreprenuership and tech-savy opportunities in US.</p>
 			</div>
 			
 
-			<div class='card-white'>
+			<div class='card-white' id='FollowMe'>
 				<h2>Follow me</h2>
 				<ul class='list-inline'>
 				<!-- inline = horizontal -->
@@ -67,6 +75,18 @@
 			</div>
 
 		</div>
+
+		<div class="sidebar">
+			<button class="toggle-btn" onclick="toggleSidebar()">Foldable Sidebar</button>
+	    <ul>
+	      <li><a href="#introduction">Self-introduction</a></li>
+	      <li><a href="#PhysicalWin">Physical Win</a></li>
+	      <li><a href="#AdventureProject">Adventure Project</a></li>
+	      <li><a href="#FuturePath">Future Path</a></li>
+	      <li><a href="#FollowMe">Follow Me</a></li>
+
+	    </ul>
+  	</div>
 		
 
 	</body>
