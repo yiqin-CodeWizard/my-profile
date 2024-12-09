@@ -102,6 +102,54 @@ p{
 	margin-bottom: 40px;
 }
 
+.sidebar {
+    width: 250px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    transition: width 0.3s ease;
+}
+
+.sidebar.folded {
+    width: 60px;
+}
+
+.sidebar .toggle-btn {
+		font-family: "PT Serif", serif;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-family: ;
+}
+
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 30px;
+}
+
+.sidebar ul li {
+		font-family: "PT Serif", serif;
+		color: white;
+    padding: 30px;
+    text-align: left;
+}
+
+.sidebar ul a {
+		color: white;
+}
+
+.sidebar ul li:hover {
+    background-color: #495057;
+}
+
 /* Color design for css file:
 	Tool 1: Color Hunt
 	Tool 2: Coolors.co
